@@ -20,6 +20,20 @@ title: "Ed."
 <hr>
 
 <div class="toc">
+  <h2>블로그 글 모음</h2>
+  <p>아래에는 최근 10개 글이 보입니다. 모든 글을 다 보고 싶다면 <a href="{% link archives.html %}">전체글 목록</a>에 가 보십시오.</p>
+  <ul class="texts">
+  {% for post in site.posts limit:10 %}
+  <li class="text-title">
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {{ post.title }}
+    </a> &mdash; {{ post.date | date: "%Y년 %-m월 %-d일"}}
+  </li>
+  {% endfor %}
+  </ul>
+</div>
+
+<div class="toc">
   <h2>sample texts</h2>
   <ul class="texts">
   {% for item in site.texts %}

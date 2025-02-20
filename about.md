@@ -1,59 +1,88 @@
 ---
 layout: page
-title: About
+title: 소개
+slug: about
 ---
 
-One of our most pressing and ever-evolving needs as scholars is to pass on our textual artifacts
-from one generation to another. The art of textual editing, among other practices, has helped many
-cultures to remember and interpret for centuries. Alas, that art is practiced and encouraged in its
-highest form by a dwindling number of scholars. In a digital environment the problem is compounded
-by the difficulties of the medium. While vast repositories and "e-publications" appear on the
-online scene yearly, very few manifest a textual scholar's disciplined attention to detail. In
-contrast, most textual scholars who have made the leap to a rigorous digital practice have focused
-on markup, relying on technical teams to deploy and maintain their work. This makes your average
-scholarly digital edition a very costly and therefore limited affair.
+미국변호사입니다 (워싱턴주). 현재 한국에 거주하고 있습니다. 연세대학교 (철학과), 연세대학교 (정치학 석사) 및 미국 조지타운 로스쿨 (JD)을 졸업하였습니다. 약 20년째 여러 법무법인을 전전하고 있습니다.
 
-As we see it, a minimal edition is one that aims to reduce the size and complexity of the back and
-front end while flattening the learning curves for the user and the producer. Out of the box, the Ed
-theme can help you build a simple reading edition, or a traditional scholarly edition with footnotes
-and a bibliography, without breaking the bank. In our estimate, these are the two most immediately
-useful type of editions for editors and readers. An edition produced with Ed consists of static
-pages whose rate of decay is substantially lower than database-driven systems. As an added bonus,
-these static pages require less bandwidth. Our hope is that our approach can help beginners and
-veterans deploy beautiful editions with less effort, and that it can help us teach a 'full stack'
-[in one academic semester](https://github.com/susannalles/MinimalEditions/blob/master/README.md),
-while allowing us to care for our projects at less cost, and perhaps, just perhaps, to generate
-high-quality editions on github.io in large quantities based on the
-[git-lit](http://jonreeve.com/2015/09/introducing-git-lit/) model by Jonathan Reeve. We're coming
-for you, Kindle!
+필명입니다. 책을 쓸 때는 필명을 사용했으므로, 일종의 책인 웹사이트에서도 필명을 사용합니다. 기타 사용한 필명은 `a77ila`와 `lawfully` 등이 있습니다. 영어에 대해서(OTL English, {% cite otlenglish_2008 --file authored --locale ko %}), 금융(머니해킹, {% cite moneyhacking_2009 --file authored --locale ko %}) 및 -- 오래됐지만 -- 컴퓨터와 해킹(따라해 보는 실전해킹, {% cite hacking_1998 --file authored --locale ko %}) 등에 대해서 책을 썼습니다. 번역도 몇 권 했습니다. 대표적으로 기억나는 것은 "파생상품, {% cite derivatives_2011 --file authored --locale ko %}"입니다. 공교롭게도 법에 대해서는 -- 아직 -- 쓴 책이 없습니다. 이 홈페이지의 다른 목적은 그 문제를 해결하는 것도 있습니다. 아마 이걸로 제 관심사를 추측할 수 있을 것입니다. 일치하는 관심사가 있다면, 홈페이지를 다녀 보십시오.
 
+상도 몇 차례 받았습니다.
 
-## Sample Ed editions.
+주된 업무영역은 소송과 분쟁해결, 금융(구조화금융, 파생상품, 스타트업), 전자, 소프트웨어와 하드웨어 등이며, 요즘은 바이오테크로 영역을 확장하려 합니다. 계약서 작성과 협상 및 자문 업무도 많이 하고 있습니다.
 
-- [Our sample site](http://minicomp.github.io/ed/) is the first edition built with Ed.
-- [Fugitive Verses](http://fugitiverses.viraltexts.org/): Popular Reprinted Poetry from Nineteenth Century Newspapers
-- [mini lazarillo](http://minilazarillo.github.io/): A minimal edition of the *Lazarillo de Tormes*
-- [Making and Knowing](https://cu-mkp.github.io/GR8975-edition/): The BnF Ms Fr 640 in Translation
-- [Daisy Miller: A Comedy in Three Acts](https://britaneeelizabeth.github.io/ed/texts/DaisyMillerPlay/)
+2000년경 블로그를 처음 접한 이후 여러 도구와 도메인으로 블로그를 운영했습니다. 혼자였고, 미국에 있었습니다. 2000년 1월 1일 바깥에서 새로운 세기가 시작하는 것을 축하하는 소리를 들으면서, 블로그 글을 썼던 기억이 있습니다. 한 2015년 정도까지는 계속했던 것으로 기억합니다. 그 이후, 여러가지 이유로 계속하지 않았습니다. 제가 하는 일과는 괴리가 있었고, 또 그냥 재미로 하기에는 동기부여가 되지 않았고, 구독자가 늘어나면 흥미가 있기 보다는 부담을 더 크게 느꼈습니다.
 
+연락은 `hyunkim [at] hyunkim.lawyer`로 부탁드립니다.
 
-## Current Features
+## 비밀유지
 
-- Templates for narrative, drama and poetry
-- Responsive design for mobile phones, tablets and PCs.
-- Relatively easy to learn and teach
-- Works well in high- or low- bandwidth scenarios
-- Easier for digital archives and libraries to preserve
-- Open source, open access
-- Unobtrusive footnotes
-- Metadata in Dublin Core and OpenGraph to play nice with Zotero, libraries and social media.
-- Automatic table of content generation
-- Simple search functionality
-- Annotations via [hypothes.is](https://hypothes.is/)
-- Optional: Ability to generate well-formatted bibliographies and linked citations
+제가 하는 일, 특히 고객에 관련된 내용에 대해서는 말하지도 않고, 글로 쓰지도 않습니다. 
 
+## Disclaimer
 
-## Installing and using Ed
+(변호사이므로) 이 페이지에서 기대할 것과 특히 기대하지 말아야 할 것을 명시하여야 합니다.  블로그를 포함하여 모든 웹사이트는 "광고"로 이해되기 때문입니다.  심지어는 저는 광고 목적으로 이걸 운영하는 것이 아닐 때에도 마찬가지입니다.  기대할 것은 위에서 말했고, 기대하지 말아야 하는 것은 첫째, 여기에서 내가 어떤 일을 하여 어떤 성과를 냈다고 말하더라도 (그러지 않을 예정입니다.  변호사로서의 비밀유지의무에 더하여, 내가 무슨 일을해서 무슨 결과를 내었는지에 대해 말하는 것은 함께 일한 사람, 즉 고객에 대한 배려가 아니라고 생각하기 때문입니다) 그런 일을 맡기면 비슷한 결과가 나올 것이라는 뜻은 아닙니다.  둘째, 내가 뭘 잘한다고 말했다고해서, 그 분야의 전문가이거나 자격증을 가지고 있거나 누군가에게 인증을 받았다는 뜻은 아닙니다.  셋째, 여기에서 무슨 이야기를 하더라도, 그것은 법률자문이 아닙니다.  법률자문은 기본적으로 개인적인 일입니다. 여기에서 이야기하는 것은 단순히 내가 업무상 취미상 알게 된 내용 즉 지식을 나열하고 정리한 것일 뿐입니다.
 
-To learn how to install and begin using Ed, please visit our
-[documentation page](http://minicomp.github.io/ed/documentation).
+## License
+
+다른 곳에 글을 복사해 가는 것은 허용하지만, 반드시 출처를 표시해 주시기 바랍니다.  특정 페이지에 포함된 글은 파편적인 지식일 가능성이 높고, 큰그림을 보여주지 못할 가능성이 높기 때문에, 또 누군가가 그걸 믿고 엉뚱한 일을 할 수 있기 때문에, 각별히 주의 부탁드립니다.
+
+## 스타일
+
+### 경어
+
+이 페이지와 [첫 글]({% post_url 2025-02-20-lets-start %})(머리말)을 제외하고는 존대말을 사용하지 않습니다. 독자를 하대하거나 무시하거나 꼰대짓하려하는 것이 아니라, 그냥 스타일상의 선택입니다. 
+
+### 인용과 참고문헌
+
+로스쿨때 거의 경기를 일으키게 하는 것이 바로 "인용"입니다. 소위 [블루북 Blue Book](https://guides.ll.georgetown.edu/bluebook)이라는 것이죠.[^bluebookonline] 싫어도 누군가가 반기를 들기 전에는 따라야 하는거죠. 그게 규칙이니까요. 누군가가 반기를 들었습니다. 그 유명하신 [리처드 포즈너](https://en.wikipedia.org/wiki/Richard_Posner) 판사님이시죠. 1986년에 쓰신 [Goodbye to the Bluebook (pdf)](https://lawreview.uchicago.edu/sites/lawreview.uchicago.edu/files/Goodbye%20to%20the%20Bluebook.pdf)입니다({% cite goodbyebluebook_1986 --file articles %}). 시간은 많고 할 일은 없으신 분들은 찬찬히 읽어 보세요. 덕분에 {% cite redbook_2018 --file legal %}같은 좋은 책도 나왔죠. 흥미로운 세상입니다. 이 소프트웨어를 사용한 가장 큰 이유도 [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)입니다.
+
+여하튼 법원이나 로리뷰 글이 아니라면 블루북을 따를 필요는 없다고 생각합니다. 참고를 하지 않을 수는 없는 일이고, 고민 끝에 이 사이트에서 참고문헌은 [chicago-author-date-16th-edition.csl](https://github.com/citation-style-language/styles/blob/master/chicago-author-date-16th-edition.csl)을 사용하였습니다.
+
+한 가지 사소한 문제라면, 어떤 글은 글의 아래에 참고문헌 목록과 각주가 있었으면 하는데, 그렇게 할 경우 `ed.`는 [kramdown](https://kramdown.gettalong.org/index.html)을 사용하는데, 참고문헌 목록이 각주 이전에 보이게 할 방법이 쉽지 않은 것이라는거죠.
+
+[^bluebookonline]: 여전히 관심 있으신 분들은 (돈을 내고) [온라인 버전](https://www.legalbluebook.com/)을 사용할 수 있다고 합니다.
+ 
+## 사용한 소프트웨어
+
+이 곳을 만들 때 사용한 소프트웨어는 다음과 같습니다.
+
+~~~bash
+$ ruby --version
+ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
+$ git clone https://github.com/minicomp/ed.git
+$ cat ed..gemspec
+...
+Gem::Specification.new do |spec|
+  spec.name = "ed."
+  spec.version = "1.3.0"
+...
+$ cat Gemfile
+source 'https://rubygems.org'
+gem 'jekyll', '~>4.2.1'
+gem 'jekyll-scholar', '~>7.0.0'
+gem 'mercenary', '~>0.4.0'
+gem 'html-proofer'
+gem 'webrick'
+~~~
+
+폰트는 [고운돋음체](https://fonts.google.com/share?selection.family=Gowun%20Dodum), [고운바탕체](https://fonts.google.com/share?selection.family=Gowun%20Batang), [하이멜로디](https://fonts.google.com/share?selection.family=Hi%20Melody)를 사용하였습니다.
+
+이 곳을 인터넷에 올릴 때 사용한 서비스는 다음과 같습니다.
+
+---
+
+## 참고문헌
+
+### 논문 
+
+{% bibliography --cited --file articles %}
+
+### 책 
+
+{% bibliography --cited --file legal %}
+
+## 쓴 책들
+
+{% bibliography --cited --file authored %}

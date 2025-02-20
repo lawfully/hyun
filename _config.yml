@@ -1,35 +1,19 @@
-# Built with Jekyll 3.6.0
-
-# Setup
-title:               Ed.
-tagline:             'a jekyll theme for minimal editions'
-description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
-url:                 'http://minicomp.github.io'
-baseurl:             '/ed'
-
-# About/contact
-author:
-  name:              Alex Gil
-  url:               https://twitter.com/elotroalex
-  email:             colibri.alex@gmail.com
-
-# Color scheme. Options: red, orange, magenta, cyan, blue, brown
-color-scheme:
-
+# Built with Jekyll 3.2.0
+#
 # Permalinks
-permalink: pretty
-permalink: /:title/
-
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink: /:year/:month/:title:output_ext
+color-scheme: red
 # Set encoding to UTF-8
 encoding: utf-8
 
-# Collections for texts
+# Markdown specs
+markdown: kramdown
+
 collections:
   texts:
     output: true
-
-# Markdown specs
-markdown: kramdown
 
 kramdown:
   auto_ids:       true
@@ -40,23 +24,60 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-# Exclusions from the final site
-exclude:
-  - optional
-  - vendor
-  - ed..gemspec
-  - Gemfile
-  - Gemfile.lock
-  - backstop_data
-  - backstop.json
+# Setup
+title:               Ed.
+tagline:             'A Jekyll theme for minimal editions'
+description:         'Ed is a Jekyll theme designed for textual editors based on minimal computing principles, and focused on legibility and flexibility.'
+url:                 https://github.com/minicomp/ed
+baseurl:             ''
 
-# Theme
-# (Used for local or custom-server deployments)
-# Uncomment the `theme` line if using the Ed. theme gem on your own computer or server.
-# See https://jekyllrb.com/docs/themes/
-# theme: "ed."
+# About/contact
+author:
+  name:              Alex Gil
+  url:               https://twitter.com/elotroalex
+  email:             colibri.alex@gmail.com
 
-# Remote Theme
-# (Used only for GitHub deployments)
-# See https://help.github.com/en/articles/adding-a-jekyll-theme-to-your-github-pages-site
-remote_theme: minicomp/ed
+# Custom vars
+version:             0.0.5
+
+# Exclude optional folder
+exclude: [optional]
+
+# Gems
+plugins: ['jekyll/scholar']
+
+# Scholar
+scholar:
+  style: modern-language-association
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: ./_bibliography
+  bibliography: references.bib
+  bibliography_template: "{{reference}}"
+  relative: "/ed/bibliography.html"
+
+  replace_strings: true
+  join_strings:    true
+
+#  use_raw_bibtex_entry: false
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
+
+## defaults
+defaults:
+-
+  scope:
+    path: ""
+    type: "posts"
+  values:
+    layout: "post"

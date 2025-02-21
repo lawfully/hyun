@@ -1,0 +1,20 @@
+---
+layout: page
+title: "journal"
+---
+개인적 글 모음입니다. 개인적이라는 것은 굳이 다른 사람들 -- 이 곳을 방문하는 분들이 관심을 가질 이유가 없는 이야기라는 겁니다. 다른 곳으로 가셔도 좋습니다.
+
+<hr>
+
+<div class="toc">
+  <h2>journal</h2>
+  <ul class="toc">
+  {% for item in site.posts %}
+  {% if item.categories contains "journal" %}
+  <li class="text-title">
+    <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> -   <em>{{ item.date | date: "%Y년 %-m월 %-d일" }}</em>
+  </li>  
+  {% endif %}
+  {% endfor %}
+  </ul>
+</div>

@@ -10,7 +10,7 @@ title: "글 목록"
   <h2>글 목록</h2>
   <ul class="toc">
   {% for item in site.posts %}
-  {% unless item.categories contains "log" %}
+  {% unless item.categories contains "journal" %}
   <li class="text-title">
     <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> -   <em>{{ item.date | date: "%Y년 %-m월 %-d일" }}</em>
   </li>  

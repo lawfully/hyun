@@ -1,6 +1,6 @@
 ---
 title: 다시 시작하며
-categories: [misc]
+categories: journal
 ---
 이곳은 다른 사람을 위한 곳이 아니다. 스스로 정리를 위해 마치 일기장처럼 쓰려는 곳이다.
 

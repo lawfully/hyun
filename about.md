@@ -2,6 +2,16 @@
 layout: page
 title: 소개
 slug: about
+editor: Hyun Kim
+date: 2025-02-22
+toc:
+- 글이 길다고 느껴지실 분을 위한 차례
+- Disclaimer
+- License
+- Style
+- Quotations and references
+- Software used
+- References
 ---
 
 미국변호사입니다 (워싱턴주). 현재 한국에 거주하고 있습니다. 연세대학교 (철학과), 연세대학교 (정치학 석사) 및 미국 조지타운 로스쿨 (JD)을 졸업하였습니다. 약 20년째 여러 법무법인을 전전하고 있습니다.
@@ -28,13 +38,13 @@ slug: about
 
 다른 곳에 글을 복사해 가는 것은 허용하지만, 반드시 출처를 표시해 주시기 바랍니다.  특정 페이지에 포함된 글은 파편적인 지식일 가능성이 높고, 큰그림을 보여주지 못할 가능성이 높기 때문에, 또 누군가가 그걸 믿고 엉뚱한 일을 할 수 있기 때문에, 각별히 주의 부탁드립니다.
 
-## 스타일
+## Style
 
 ### 경어
 
-이 페이지와 [첫 글]({% post_url 2025-02-20-lets-start %})(머리말)을 제외하고는 존대말을 사용하지 않습니다. 독자를 하대하거나 무시하거나 꼰대짓하려하는 것이 아니라, 그냥 스타일상의 선택입니다. 
+존대말을 할 때도 있고, 그렇지 않을 때도 있습니다만, 결코 여러분을 무시해서가 아니라, 단순한 스타일상의 선택입니다. 글의 성격과 맥락에 따라 -- 또 그날의 기분에 따라 -- 임의로 반말을 하기도 하고, 존대말을 하기도 합니다.
 
-### 인용과 참고문헌
+### Quotations and references
 
 로스쿨때 거의 경기를 일으키게 하는 것이 바로 "인용"입니다. 소위 [블루북 Blue Book](https://guides.ll.georgetown.edu/bluebook)이라는 것이죠.[^bluebookonline] 싫어도 누군가가 반기를 들기 전에는 따라야 하는거죠. 그게 규칙이니까요. 누군가가 반기를 들었습니다. 그 유명하신 [리처드 포즈너](https://en.wikipedia.org/wiki/Richard_Posner) 판사님이시죠. 1986년에 쓰신 [Goodbye to the Bluebook (pdf)](https://lawreview.uchicago.edu/sites/lawreview.uchicago.edu/files/Goodbye%20to%20the%20Bluebook.pdf)입니다({% cite goodbyebluebook_1986 --file articles %}). 시간은 많고 할 일은 없으신 분들은 찬찬히 읽어 보세요. 덕분에 {% cite redbook_2018 --file legal %}같은 좋은 책도 나왔죠. 흥미로운 세상입니다. 이 소프트웨어를 사용한 가장 큰 이유도 [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)입니다.
 
@@ -44,7 +54,7 @@ slug: about
 
 [^bluebookonline]: 여전히 관심 있으신 분들은 (돈을 내고) [온라인 버전](https://www.legalbluebook.com/)을 사용할 수 있다고 합니다.
  
-## 사용한 소프트웨어
+## Software used
 
 이 곳을 만들 때 사용한 소프트웨어는 다음과 같습니다.
 
@@ -60,14 +70,14 @@ gem 'jekyll-scholar', '~>7.1.3'
 gem "webrick", "~> 1.9.1"
 ~~~
 
-폰트는 [고운돋음체](https://fonts.google.com/share?selection.family=Gowun%20Dodum), [고운바탕체](https://fonts.google.com/share?selection.family=Gowun%20Batang), [하이멜로디](https://fonts.google.com/share?selection.family=Hi%20Melody)를 사용하였습니다.
+폰트는 노토 세리프, 노토 산스 및 비트겐슈타인(영어)을 사용하였습니다. 모두 구글에서 제공하는 폰트이며 *variable font*입니다.
 
 이 곳을 인터넷에 올릴 때 사용한 서비스는 다음과 같습니다.
 **[TBA]**
 
 ---
 
-## 참고문헌
+## References
 
 ### 논문 
 

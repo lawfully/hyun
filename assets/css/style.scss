@@ -10,8 +10,9 @@ sitemap: false
 */
 
 /* Fonts */
-$main-font: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-$heading-font: sans-serif;
+$main-font: "Wittgenstein", "Noto Serif KR", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$heading-font: "Wittgenstein", "Noto Sans KR", sans-serif;
+$title-font: "Wittgenstein Thick", "Noto Serif KR", serif;
 $regular-font-size: 1.25em; /* 20px / 16px = 1.25em; support text resizing in all browsers */
 
 
@@ -27,3 +28,4 @@ $link-color: #841212;
 
 @import "ed";
 @import "syntax";
+@import "fonts";

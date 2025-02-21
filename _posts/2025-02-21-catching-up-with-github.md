@@ -1,5 +1,8 @@
 ---
 title: catching up with github
+toc:
+- This is what will be shown in the sidebar
+- That's neat, kind of
 categories: journal
 date: 2025-02-21
 editor: Hyun Kim
@@ -13,7 +16,7 @@ No end of the world around the corner.
 
 ---
 
-I'm glad after 13 years, according to github, and despite changes big and small here and there, I could still pull it off.
+I'm glad after 13 years, according to github, and despite changes big and small here and there, I could still pull it off. It's rapidly becoming a weekend hobby of sorts, I'm afraid. I should spend more time outdoor.
 
 So, here's what I did, so that I don't forget -- or rather, so that I don't have to remember -- until now. 
 
@@ -27,4 +30,4 @@ So, here's what I did, so that I don't forget -- or rather, so that I don't have
 ### What I will do
 
 - connect domain: doing all [what github says about custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), and get some error. Not sure if it's going to resolve or not. **Update:** It did resolve, but no `https` yet. Wait more?
-- some nice fonts
+- some nice fonts: included *Noto* Korean fonts and *Wittgensten,* both variable fonts from [google fonts](https://fonts.google.com/).

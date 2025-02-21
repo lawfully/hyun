@@ -10,8 +10,13 @@
     <p>{{ site.description }}</p>
   </div>
 
+  <div class="sidebar-item">
+    <p>
+     &copy; {{ page.editor }} on {{ page.date | date: '%B %d, %Y' }}
+    </p>
+  </div>
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">첫페이지로</a>
 
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -28,21 +33,21 @@
     {% endfor %}
 
     <!-- The code below is used for manually entered links  -->
-    <span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
+<!--    <span style='cursor:pointer;' onclick="javascript:var hypothesis = document.createElement('script');
       hypothesis.setAttribute('src','https://hypothes.is/embed.js');
-      document.head.appendChild(hypothesis);"><a class="sidebar-nav-item">Annotate me</a></span>
+      document.head.appendChild(hypothesis);"><a class="sidebar-nav-item">Annotate me</a></span> -->
 
   <!--
     <a class="sidebar-nav-item" href="https://via.hypothes.is/{{ site.url }}{{ site.baseurl }}{{page.url}}/" data-proofer-ignore>Annotate me</a>
     <script src="https://hypothes.is/embed.js" async></script>
   -->
 
-    <a class="sidebar-nav-item" href="https://github.com/minicomp/ed" target="_blank">GitHub project</a>
+    <!-- <<a class="sidebar-nav-item" href="https://github.com/minicomp/ed" target="_blank">GitHub project</a>> -->
   </nav>
 
   <div class="sidebar-item">
     <p>
-      Built with <a href="https://minicomp.github.io/ed/">Ed.</a> Distributed under an MIT license.
+      <a href="https://minicomp.github.io/ed/">Ed.</a>로 만들고, <a href="https://github.com">깃헙</a>에 호스팅하였습니다.
     </p>
   </div>
 </aside>

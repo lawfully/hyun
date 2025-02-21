@@ -3,6 +3,7 @@ layout: default
 ---
 
 <article class="post">
-  <h1 class="text-title">{{ page.title }}</h1>
+  <h1 class="text-title">{{ page.title }} </h1>
+  <p><i>by {{ page.editor }}, on {{ page.date | date: '%B %d, %Y' }}</i></p>
   {{ content }}
 </article>

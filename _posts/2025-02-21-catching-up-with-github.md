@@ -1,6 +1,8 @@
 ---
 title: catching up with github
 categories: journal
+date: 2025-02-21
+editor: Hyun Kim
 ---
 Wow, I pretty messed up things. Back to ground zero. This happened because I sort of messed up with `git remote` thing. So, doing all over again those things I did before. So, what happened?
 
@@ -10,6 +12,8 @@ Mistake happens. We all make mistakes. No worries. Just small things to adjust. 
 No end of the world around the corner.
 
 ---
+
+I'm glad after 13 years, according to github, and despite changes big and small here and there, I could still pull it off.
 
 So, here's what I did, so that I don't forget -- or rather, so that I don't have to remember -- until now. 
 
@@ -22,4 +26,5 @@ So, here's what I did, so that I don't forget -- or rather, so that I don't have
 
 ### What I will do
 
-- connect domain
+- connect domain: doing all [what github says about custom domains](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site), and get some error. Not sure if it's going to resolve or not. **Update:** It did resolve, but no `https` yet. Wait more?
+- some nice fonts

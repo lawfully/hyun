@@ -11,7 +11,7 @@
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}/">첫페이지로</a>
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="#" data-proofer-ignore>Return to Top</a>
     {% for node in page.toc %}
     <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %} sidebar-nav-item-toc" href="#{{ node | slugify }}">{{ node }}</a>
@@ -23,7 +23,7 @@
      Edited by {{ page.editor }}, {{ site.time | date: '%Y' }}.
     </p>
     <p>
-      Built with <a href="https://minicomp.github.io/ed/">Ed.</a> Distributed under an MIT license.
+      <a href="https://minicomp.github.io/ed/">Ed.</a>를 이용하여 만들고, <a href="https://github.com">github</a>에 호스팅하였습니다. 
     </p>
   </div>
 </aside>

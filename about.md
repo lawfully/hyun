@@ -50,26 +50,20 @@ slug: about
 
 ~~~bash
 $ ruby --version
-ruby 3.0.0p0 (2020-12-25 revision 95aff21468) [x86_64-linux]
+ruby 3.2.4 (2024-04-23 revision af471c0e01) [x86_64-linux]
 $ git clone https://github.com/minicomp/ed.git
-$ cat ed..gemspec
-...
-Gem::Specification.new do |spec|
-  spec.name = "ed."
-  spec.version = "1.3.0"
-...
 $ cat Gemfile
 source 'https://rubygems.org'
-gem 'jekyll', '~>4.2.1'
-gem 'jekyll-scholar', '~>7.0.0'
-gem 'mercenary', '~>0.4.0'
-gem 'html-proofer'
-gem 'webrick'
+gem 'jekyll', '~>4.4.1'
+gem 'jekyll-scholar', '~>7.1.3'
+#gem 'github-pages', '~>232', group: :jekyll_plugins
+gem "webrick", "~> 1.9.1"
 ~~~
 
 폰트는 [고운돋음체](https://fonts.google.com/share?selection.family=Gowun%20Dodum), [고운바탕체](https://fonts.google.com/share?selection.family=Gowun%20Batang), [하이멜로디](https://fonts.google.com/share?selection.family=Hi%20Melody)를 사용하였습니다.
 
 이 곳을 인터넷에 올릴 때 사용한 서비스는 다음과 같습니다.
+**[TBA]**
 
 ---
 

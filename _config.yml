@@ -4,7 +4,8 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:year/:month/:title:output_ext
-color-scheme: red
+color-scheme: brown
+# red, orange, green, cyan, blue, magenta, brown available
 # Set encoding to UTF-8
 encoding: utf-8
 

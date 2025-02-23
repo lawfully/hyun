@@ -4,7 +4,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink: /:year/:month/:title:output_ext
-color-scheme: brown
+color-scheme: red
 # red, orange, green, cyan, blue, magenta, brown available
 # Set encoding to UTF-8
 encoding: utf-8
@@ -49,9 +49,10 @@ plugins: ['jekyll/scholar']
 
 # Scholar
 scholar:
-  style: modern-language-association
+  style: chicago-author-date-16th-edition
   locale: en
-
+  allow_locale_overrides: true
+  
   sort_by: none
   order: ascending
 

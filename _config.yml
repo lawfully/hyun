@@ -26,17 +26,17 @@ kramdown:
   enable_coderay: false
 
 # Setup
-title:               hyun.lawyer
+title:               hyunkim.lawyer
 tagline:             'Musings of a simple lawyer on things other than the law'
 description:         'Musings of a simple lawyer on things other than the law'
-url:                 https://hyun.lawyer
+url:                 https://hyunkim.lawyer
 baseurl:             ''
 
 # About/contact
 author:
   name:              Hyun Kim
-  url:               https://hyun.lawyer
-  email:             hyun@hyun.lawyer
+  url:               https://hyunkim.lawyer
+  email:             hyun@hyunkim.lawyer
 
 # Custom vars
 version:             0.0.5
@@ -62,7 +62,7 @@ scholar:
   source: ./_bibliography
   bibliography: references.bib
   bibliography_template: "{{reference}}"
-  relative: "/ed/bibliography.html"
+  relative: "/bibliography.html"
 
   replace_strings: true
   join_strings:    true

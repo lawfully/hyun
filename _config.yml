@@ -36,7 +36,7 @@ baseurl:             ''
 author:
   name:              Hyun Kim
   url:               https://hyunkim.lawyer
-  email:             hyun@hyunkim.lawyer
+  email:             hyunkim@hyunkim.lawyer
 
 # Custom vars
 version:             0.0.5

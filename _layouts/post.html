@@ -6,4 +6,8 @@ layout: default
   <h1 class="text-title">{{ page.title }} </h1>
   <p><i>by {{ site.author.name }}, on {{ page.date | date: '%B %d, %Y' }}</i></p>
   {{ content }}
+
+  <h2 class="text-title">읽는 책</h2>
+  {% bibliography --cited --file legal %}
+  {% bibliography --cited --file design %}
 </article>

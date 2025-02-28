@@ -2,6 +2,7 @@
 layout: page
 title: 참고문헌
 slug: bibliography
+weight: 99
 ---
 
 아래 이 사이트에서 사용한 참고문헌 목록은 [jekyll-scholar](https://github.com/inukshuk/jekyll-scholar)를 이용하였습니다. 
@@ -12,6 +13,8 @@ slug: bibliography
 <p>{% bibliography --file legal %}</p>
 
 ## 일반도서
+
+<p>{% bibliography --file design %}</p>
 
 ## 논문
 

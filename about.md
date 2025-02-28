@@ -12,6 +12,7 @@ toc:
 - Quotations and references
 - Software used
 - References
+weight: 1
 ---
 
 미국변호사입니다 (워싱턴주). 현재 한국에 거주하고 있습니다. 연세대학교 (철학과), 연세대학교 (정치학 석사) 및 미국 조지타운 로스쿨 (JD)을 졸업하였습니다. 약 20년째 여러 법무법인을 전전하고 있습니다.

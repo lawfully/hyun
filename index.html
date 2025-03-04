@@ -18,7 +18,7 @@ editor: Hyun Kim
   <p>아래에는 최근 10개 글이 보입니다. 모든 글을 다 보고 싶다면 <a href="{% link archives.html %}">전체글 목록</a>에 가 보십시오. 개인적인 글은 <a href="{% link journal.html %}">개인글 모음</a>을 보십시오.</p>
   <ul class="texts">
   {% for post in site.posts limit:10 %}
-  {% unless post.categories contains "journal" %}
+  {% unless post.categories contains "personal" %}
   <li class="text-title">
     <a href="{{ site.baseurl }}{{ post.url }}">
       {{ post.title }}

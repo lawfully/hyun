@@ -11,7 +11,7 @@ weight: 98
   <h2>journal</h2>
   <ul class="toc">
   {% for item in site.posts %}
-  {% if item.categories contains "journal" %}
+  {% if item.categories contains "personal" %}
   <li class="text-title">
     <a href="{{ site.baseurl }}{{ item.url }}">{{ item.title }}</a> -   <em>{{ item.date | date: "%Y년 %-m월 %-d일" }}</em>
   </li>  

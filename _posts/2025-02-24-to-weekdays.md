@@ -1,6 +1,6 @@
 ---
 title: frustration with https
-categories: journal
+categories: personal
 ---
 
 ## https

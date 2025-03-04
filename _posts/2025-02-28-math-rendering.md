@@ -1,6 +1,6 @@
 ---
 title: KaTeX and JekTex
-categories: [journal]
+categories: [personal]
 ---
 
 Yes, one of the problems of living with open source software is when you want to do something, there're too many options. Too many.

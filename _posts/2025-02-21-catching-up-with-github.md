@@ -3,7 +3,7 @@ title: catching up with github
 toc:
 - This is what will be shown in the sidebar
 - That's neat, kind of
-categories: journal
+categories: personal
 date: 2025-02-21
 editor: Hyun Kim
 ---
